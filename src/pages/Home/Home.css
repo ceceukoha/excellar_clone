@@ -1,0 +1,123 @@
+.home-body{
+    min-height: 100vh;
+    height: 100%;
+
+}
+.hero{
+    display: grid;
+    place-items: center;
+    gap: 2em;
+    padding: 35vh 0;
+
+}
+.hero h1{
+    font-size: 85px;
+    max-width: 90%;
+    width: 100%;
+    text-align: center;
+    line-height: 75px;
+    color: white;
+
+}
+.hero p{
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Source Serif Pro', serif;
+    color: white;
+    
+}
+.phil-2{
+    padding-top: 11em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.phil-2 h2{
+    font-size: 32px;
+    font-family: "Cinzel", sans-serif
+}
+.phil-2 p{
+    font-size: 20px;
+    font-family: "Source serif 4", sans-serif;
+    max-width: 90%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.phil svg{
+    opacity: 0.2;
+}
+.card-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 3em 0;
+    z-index: 1;
+    /* padding:0 173px; */
+}
+.faq{
+    /* max-width: 80%; */
+    display: grid;
+    place-items: center;
+    width: 100%;
+    /* justify-content: space-around; */
+    /* display: flex; */
+    /* text-align: center;
+    align-items: center; */
+    padding-bottom: 4em;
+    /* max-width: 780px; */
+
+}
+.faq h1{
+    padding-bottom: 3em;
+    color: #ca0114;
+}
+.faq-div{
+    display: flex;
+    border-bottom: 1px solid #ca0114;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    width: 780px;
+    padding-bottom: 2em;
+}
+.faq-div h2{
+    color: black;
+    font-size: 20px;
+    font-family: "Source serif 4", sans-serif;
+    font-weight: 600;
+}
+.faq-div p{
+    color: #ca0114;
+    font-size: 16px;
+    text-transform: none;
+    line-height: 2;
+    font-family: "Source serif 4", sans-serif;
+
+
+}
+
+.faq-dropdown {
+    padding: 1.5em;
+    background-color: #ca0114;
+    color: #fff;
+}
+.faq-dropdown p{
+    /* width: 100%; */
+    width: 726px;
+    text-align: left;
+
+}
+
+@media (max-width:640px) {
+    .hero{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

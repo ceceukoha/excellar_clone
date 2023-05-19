@@ -1,0 +1,32 @@
+.topNavContainer {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+.topNav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em 3em;
+  background-color: transparent;
+  align-items: center;
+}
+.nav-links , .nav-links-dark{
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Source Serif Pro", serif;
+}
+.nav-links-dark a {
+  color: #0C4264;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Source Serif Pro", serif;
+}
+.topNav img {
+  width: 80px;
+}

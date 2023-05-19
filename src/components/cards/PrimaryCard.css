@@ -1,0 +1,42 @@
+.phil{
+    background-color: #0C4264;
+
+}
+.phil svg{
+    position: absolute;
+}
+.secondaryBtn-div{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 320px;
+    min-height: 217px;
+    border-radius: 20px;
+    color: #0C4264;
+    background-color: #fff;
+    z-index: 999;
+}
+.secondaryBtn-div img{
+    width: 100px;
+    color: white;
+
+}
+.secondaryBtn-div h3{
+    color: #0C4264;
+    font-size: 24px;
+    font-size: "Source seif 4", sans serif;
+
+}.svg-2{
+    rotate: 180deg;
+    padding-bottom: 12em;
+}
+.svg-2 svg{
+    position: absolute;
+}
+.btn-more{
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+}
