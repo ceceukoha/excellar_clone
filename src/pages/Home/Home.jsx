@@ -1,6 +1,7 @@
 import React from "react";
 import PrimaryBtn from "../../components/buttons/PrimaryBtn";
 import "./Home.css";
+import "./responsive.css";
 import imgOne from "../../assets/img/hero_1.jpg";
 import imgTwo from "../../assets/img/hero_2.jpg";
 import imgThree from "../../assets/img/hero_3.jpg";
@@ -143,21 +144,7 @@ const Home = () => {
       <div className="faq">
         <h1>Frequently asked questions</h1>
 
-        {/* <div className="faq-content">
-          <div className="faq-div">
-            <h2>Who are Excelar Projects?</h2>
-            <MdArrowForwardIos color="#ca0114" />
-          </div>
-          <div className="faq-dropdown">
-            <p>
-              Excelar Projects is a Real Estate development company with
-              operations and projects across the commercial, retail and
-              residential industries. We provide real estate advisory services
-              as well to our clients to help them make the right decision in
-              their Real Estate investment.
-            </p>
-          </div>
-        </div> */}
+        
         <div className="faq-content">
           {objArray.map((item, index) => (
             //what u use to access the item, position of item in an array

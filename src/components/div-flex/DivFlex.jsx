@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import PrimaryBtn from '../buttons/PrimaryBtn';
 import './DivFlex.css';
+import "./responsive.css";
 
 
 
