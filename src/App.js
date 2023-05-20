@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <TopNav />
+      {/* <TopNav /> */}
       {/* <Home /> */}
       <Routes>
         <Route path="/" Component={Home} />

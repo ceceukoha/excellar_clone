@@ -24,8 +24,10 @@
     /* width: 15%; */
 }
 .third{
+    /* overflow:hidden; */
     /* width: 15%; */
 }
+
 .last-footer{
     display: flex;
     justify-content: space-between;
@@ -41,4 +43,26 @@
 .social-icons{
     display: flex;
     gap: 2em;
+}
+@media (max-width: 640px){
+.first h1{
+
+    font-size: 30px;
+}
+.first{
+    width:100%;
+}
+.third h2{
+    font-size:16px;
+    width:100%;
+}
+.third{
+    overflow:hidden;
+    width:100%;
+}
+.third h3{
+    font-size:13px;
+    overflow:hidden;
+
+}
 }

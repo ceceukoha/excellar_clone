@@ -18,14 +18,14 @@ const Footer = () => {
             Lagos, Nigeria
           </h3>
         </div>
-        <div>
+        <div className="third">
           <div>
             <h2>PHONE:</h2>
-            <h2>+234 (0) 702 512 6188</h2>
+            <h3>+234 (0) 702 512 6188</h3>
           </div>
           <div>
             <h2>EMAIL</h2>
-            <h2>info@excelarprojects.com</h2>
+            <h3>info@excelarprojects.com</h3>
           </div>
         </div>
       </div>

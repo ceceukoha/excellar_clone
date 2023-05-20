@@ -54,6 +54,26 @@
 .phil svg{
     opacity: 0.2;
 }
+.about-section{
+    padding: 0 3em;
+}
+.about-section-text  {
+    color: #ca0114;
+    display: grid;
+    width: 100%;
+    gap: 2em;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   padding: 6em 0;
+
+}
+.about-section-text p{
+    width: 1040px;
+    font-family: "Source serif 4", sans-serif;
+    color: black;
+
+}
 .card-flex{
     display: flex;
     width: 100%;
@@ -117,4 +137,9 @@
     text-align: left;
 
 }
+/* @media (max-width: 640px){
+.faq-dropdown p{
+    width: 100%;
+}
+} */
 

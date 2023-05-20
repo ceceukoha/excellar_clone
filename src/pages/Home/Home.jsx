@@ -124,7 +124,7 @@ const Home = () => {
           textTwo="Proven expertise in developing and managing Premium Real Estate in some of Nigeria’s most prestigious neighborhoods, including Ikoyi, Victoria Island, and Lekki .Committed to meeting your premium lifestyle and business needs" btnText="Projects"
         />
         <div className="about-section-text">
-          <h1>Our Wealth of Experience</h1>
+          <h1>Ourg Wealth of Experience</h1>
           <p>
             We are not just about big, ambitious dreams and projects, we have
             the experience to match. Over the years, we have worked on
@@ -144,7 +144,21 @@ const Home = () => {
       <div className="faq">
         <h1>Frequently asked questions</h1>
 
-        
+        {/* <div className="faq-content">
+          <div className="faq-div">
+            <h2>Who are Excelar Projects?</h2>
+            <MdArrowForwardIos color="#ca0114" />
+          </div>
+          <div className="faq-dropdown">
+            <p>
+              Excelar Projects is a Real Estate development company with
+              operations and projects across the commercial, retail and
+              residential industries. We provide real estate advisory services
+              as well to our clients to help them make the right decision in
+              their Real Estate investment.
+            </p>
+          </div>
+        </div> */}
         <div className="faq-content">
           {objArray.map((item, index) => (
             //what u use to access the item, position of item in an array
